@@ -4,10 +4,11 @@
   margin: 0;
 }
 
-body {
-  font-family: 'Didact Gothic', sans-serif;
+#headline {
+  font-family: 'Hanalei Fill', cursive;
 }
 
-.title {
-  font-family: 'Aldrich', sans-serif;
+body {
+  font-family: 'Patrick Hand', cursive;
+  background-color: #CFE8EF;
 }
