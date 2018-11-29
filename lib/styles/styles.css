@@ -58,28 +58,48 @@ img {
 body {
   height: 100vh;
   font-family: 'Patrick Hand', cursive;
-  color: #363E43;
+  color: #94958B;
   background-color: #CFE8EF;
 }
 
 .headline {
   font-size: 40px;
+  padding-left: 25px;
+  padding-right: 15px;
+
+}
+
+#pink {
+  font-size: 40px;
+  color: #D62839;
+
+}
+
+.todays-coat {
+  display: block;
 }
 
 .body-containers {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .info-container {
+  border-radius: 50px;
   border-width: 5px;
-  border-style: dotted;
-  border-color: #94958B;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.between {
+  padding-top: 30px;
 }
 
 a {
