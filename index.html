@@ -2,12 +2,67 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Quantified Self - Diary</title>
-</head>
-<body>
+  <title>Coat or No Coat</title>
+  <link rel="stylesheet" type="text/css" href="lib/styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="lib/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Patrick+Hand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+
+  <body>
+
+  <nav class="nav">
+    <ul class="nav-container">
+      <!-- <div class="logo-container"> -->
+        <li><a href="" class="logo" id="logo-pic"><img src="lib/CONC-logo.jpg"></a></li>
+        <li><a href="" class="logo" id="logo-headline">Coat or No Coat</a></li>
+      <!-- </div> -->
+      <!-- <div class="nav-links-container"> -->
+      <li><a href="" class="nav-links" id="login-logout">Log Out</a></li>
+        <li><a href="" class="nav-links" id ="about">About</a></li>
+        <li><a href="" class="nav-links" id ="my-account">My Account</a></li>
+      <!-- </div> -->
+    </ul>
+  </nav>
+
+  <div class="body-containers">
+    <div class="info-container">
+      <h1 class="headline">Today's Coat</h1>
+      <h1 id="pink">Fall Coat</h1>
+    </div>
+    <div class="between"></div>
+
+    <div class="info-container">
+      <h1 class="headline">My Coats</h1>
+        <div class="coat-container">
+          <h1 id="pink">Rain Jacket</h1>
+          <p>Precipitation Type: Rain   Temp. Range: 51-85º</p>
+          <button type="button" class="info-button">Edit Rain Jacket</button>
+        </div>
+        <div class="coat-container">
+          <h1 id="pink">Fall Coat</h1>
+          <p>Precipitation Type: None   Temp. Range: 51-68º</p>
+          <button type="button" class="info-button">Edit Fall Coat</button>
+        </div>
+        <div class="coat-container">
+          <h1 id="pink">Winter Coat</h1>
+          <p>Precipitation Type: Snow, None   Temp. Range: -10-50º</p>
+          <button type="button" class="info-button">Edit Winter Coat</button>
+        </div>
+    </div>
+
+    <div class="between"></div>
+
+    <div class="info-container">
+      <h1 class="headline">My Texts</h1>
+      <h1 id="pink">M-F</h1>
+      <h1 id="pink">6 AM</h1>
+      <button type="button" class="info-button">Edit My Text Settings</button>
+    </div>
+  </div>
+
       <!--  the a tag below can link you to another HTML page  -->
       <!--  if you click the button in the browser right now, you'll get an error because that is not a real file path -->
-      <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a>
+      <!-- <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a> -->
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>

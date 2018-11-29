@@ -1,0 +1,142 @@
+/* #363E43 */
+/* #00C0FF */
+/* #CFE8EF */
+/* #94958B */
+/* #D62839 */
+
+#logo-headline {
+  font-family: 'Hanalei Fill', cursive;
+  color: #CFE8EF;
+  font-size: 45px;
+  padding-top: 12px;
+}
+
+#logo-headline:hover {
+  color: #D62839;
+}
+
+#logo-headline:active {
+  font-weight: bold;
+  color: #363E43;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+.logo {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-links {
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-container {
+  /* justify-content: flex-start; */
+  /* display: flex; */
+  font-size: 30px;
+  background-color: #94958B;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Text Me One', sans-serif;
+  color: #94958B;
+  background-color: #CFE8EF;
+}
+
+.headline {
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 40px;
+  padding-left: 25px;
+  padding-right: 15px;
+
+}
+
+#pink {
+  font-size: 40px;
+  color: #D62839;
+  padding-top: 10px;
+}
+
+.body-containers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.info-container {
+  display: block;
+  border-radius: 50px;
+  border-width: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.between {
+  padding-left: 30px;
+}
+
+/* .coat-container {
+  display: flex;
+} */
+
+.info-button {
+  background-color: #94958B;
+  font-family: 'Text Me One', sans-serif;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+.info-button:hover {
+  background-color: #D62839;
+  transition: 0.2s all ease;
+}
+
+.info-button:active {
+  background-color: #363E43;
+}
+
+a {
+  color: #CFE8EF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D62839;
+  text-decoration: none;
+  transition: 0.2s all ease;
+}
+
+a:active {
+  color: #363E43;
+  text-decoration: none;
+}
