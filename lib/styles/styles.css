@@ -1,14 +1,88 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+/* #363E43 */
+/* #00C0FF */
+/* #CFE8EF */
+/* #94958B */
+/* #D3FBD8 */
+/* #D62839 */
+
+#logo-headline {
+  font-family: 'Hanalei Fill', cursive;
+  color: #CFE8EF;
+  font-size: 40px;
+  padding-top: 15px;
 }
 
-#headline {
-  font-family: 'Hanalei Fill', cursive;
+#logo-headline:hover {
+  color: #D62839;
+}
+
+#logo-headline:active {
+  color: #363E43;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 10px;
+  height: 70px;
+  width: 70px;
 }
 
 body {
+  height: 100vh;
   font-family: 'Patrick Hand', cursive;
   background-color: #CFE8EF;
+}
+
+.logo {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-links {
+  float: right;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-container {
+  /* justify-content: flex-start; */
+  /* display: flex; */
+  font-size: 30px;
+  background-color: #94958B;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+/* .container > li {
+  flex: 1;
+} */
+
+/* @media all and (max-width: 400px) {
+  .container > li {
+    flex-basis: 100%;
+  }
+} */
+
+a {
+  color: #CFE8EF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D62839;
+  text-decoration: none;
+}
+
+a:active {
+  color: #363E43;
+  text-decoration: none;
 }
