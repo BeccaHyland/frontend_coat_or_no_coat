@@ -2,14 +2,13 @@
 /* #00C0FF */
 /* #CFE8EF */
 /* #94958B */
-/* #D3FBD8 */
 /* #D62839 */
 
 #logo-headline {
   font-family: 'Hanalei Fill', cursive;
   color: #CFE8EF;
-  font-size: 40px;
-  padding-top: 15px;
+  font-size: 45px;
+  padding-top: 12px;
 }
 
 #logo-headline:hover {
@@ -25,12 +24,6 @@ img {
   border-radius: 10px;
   height: 70px;
   width: 70px;
-}
-
-body {
-  height: 100vh;
-  font-family: 'Patrick Hand', cursive;
-  background-color: #CFE8EF;
 }
 
 .logo {
@@ -62,15 +55,32 @@ body {
   width: 100%;
 }
 
-/* .container > li {
-  flex: 1;
-} */
+body {
+  height: 100vh;
+  font-family: 'Patrick Hand', cursive;
+  color: #363E43;
+  background-color: #CFE8EF;
+}
 
-/* @media all and (max-width: 400px) {
-  .container > li {
-    flex-basis: 100%;
-  }
-} */
+.headline {
+  font-size: 40px;
+}
+
+.body-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.info-container {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: #94958B;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+}
 
 a {
   color: #CFE8EF;
