@@ -64,6 +64,8 @@ body {
 }
 
 .headline {
+  font-family: 'Hanalei Fill', cursive;
+
   font-size: 40px;
   padding-left: 25px;
   padding-right: 15px;
