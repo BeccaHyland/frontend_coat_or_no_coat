@@ -71,10 +71,11 @@ body {
 
 }
 
-#pink {
+.pink {
   font-size: 40px;
   color: #D62839;
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .body-containers {
@@ -98,6 +99,10 @@ body {
   text-align: center;
 }
 
+.coat-attributes {
+  padding-bottom: 10px;
+}
+
 .between {
   padding-left: 30px;
 }
@@ -119,10 +124,12 @@ body {
 .info-button:hover {
   background-color: #D62839;
   transition: 0.2s all ease;
+  cursor: pointer;
 }
 
 .info-button:active {
   background-color: #363E43;
+  cursor: pointer;
 }
 
 a {
@@ -134,9 +141,11 @@ a:hover {
   color: #D62839;
   text-decoration: none;
   transition: 0.2s all ease;
+  cursor: pointer;
 }
 
 a:active {
   color: #363E43;
   text-decoration: none;
+  cursor: pointer;
 }
