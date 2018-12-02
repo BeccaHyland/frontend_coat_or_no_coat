@@ -12,9 +12,16 @@
   <body>
     <div class="landing-container">
       <h1 class="headline">Coat or No Coat</h1>
-      <h2 class="pink-headline">Click below to Register</h2>
-      <br></br>
-      <a href="homepage.html"><button class="default-button">(test) GO TO HOMEPAGE</button></a>
+      <h2 class="pink-headline">Register Below</h2><br>
+
+      <form action="/action_page.php" method="post">
+        <p> Enter your email and a password for your account below:</p><br>
+        <input type="text" name="email" placeholder="your email address"><br><br>
+        <input type="password" name="password" placeholder="choose a password"><br><br>
+        <button type="submit" id="register-button" class="info-button">Register Your Account</button><br><br>
+      </form>
+
+      <a href="homepage.html"><button class="info-button">(test) GO TO HOMEPAGE</button></a>
     </div>
 
     <script
