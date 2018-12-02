@@ -71,7 +71,7 @@ body {
 
 }
 
-.pink {
+.pink-headline {
   font-size: 40px;
   color: #D62839;
   padding-top: 15px;
@@ -82,10 +82,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 25px 30px;
 }
 
 .info-container {
