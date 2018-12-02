@@ -1,67 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Coat or No Coat</title>
-  <link rel="stylesheet" type="text/css" href="lib/styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="lib/styles/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Patrick+Hand" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <title>Coat or No Coat</title>
+    <link rel="stylesheet" type="text/css" href="lib/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="lib/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Patrick+Hand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+  </head>
 
   <body>
+    <div class="landing-container">
+      <a href="" class="logo" id="logo-pic"><img src="lib/CONC-logo.jpg"></a><br><br>
+      <h1 class="headline">Coat or No Coat</h1>
+      <h2 class="pink-headline">Register Below</h2><br>
 
-  <nav class="nav">
-    <ul class="nav-container">
-      <li><a href="" class="logo" id="logo-pic"><img src="lib/CONC-logo.jpg"></a></li>
-      <li><a href="" class="logo" id="logo-headline">Coat or No Coat</a></li>
-      <li><a href="" class="nav-links" id="login-logout">Log Out</a></li>
-      <li><a href="" class="nav-links" id ="about">About</a></li>
-      <li><a href="" class="nav-links" id ="my-account">My Account</a></li>
-    </ul>
-  </nav>
+      <form action="">
+        <p> Complete the info below to create a new account:</p><br>
+        <input type="text" id="email" placeholder="your email address"><br><br>
+        <input type="number" id="zip-code" placeholder="your zip code"><br><br>
+        <input type="text" id="phone-number" placeholder="your phone number"><br><br>
+        <input type="password" id="password" placeholder="choose a password"><br><br>
+        <input type="password" id="password-confirm" placeholder="confirm password"><br><br>
+        <button type="submit" id="register-button" class="info-button">Register Your Account</button><br><br>
+      </form>
 
-  <div class="body-containers">
-    <div class="info-container">
-      <h1 class="headline">Today's Coat</h1>
-      <h1 class="pink-headline">Fall Coat</h1>
-    </div>
-    <div class="between"></div>
-
-    <div class="info-container">
-      <h1 class="headline">My Coats</h1>
-        <div class="coat-container">
-          <h1 class="pink-headline">Rain Jacket</h1>
-          <p class="coat-attributes">Precipitation Type: Rain   Temp. Range: 51-85º</p>
-          <button type="button" class="info-button">Edit Rain Jacket</button>
-        </div>
-        <div class="coat-container">
-          <h1 class="pink-headline">Fall Coat</h1>
-          <p class="coat-attributes">Precipitation Type: None   Temp. Range: 51-68º</p>
-          <button type="button" class="info-button">Edit Fall Coat</button>
-        </div>
-        <div class="coat-container">
-          <h1 class="pink-headline">Winter Coat</h1>
-          <p class="coat-attributes">Precipitation Type: Snow, None   Temp. Range: -10-50º</p>
-          <button type="button" class="info-button">Edit Winter Coat</button>
-        </div>
+      <a href="homepage.html"><button class="info-button">(test) GO TO HOMEPAGE</button></a>
     </div>
 
-    <div class="between"></div>
-
-    <div class="info-container">
-      <h1 class="headline">My Texts</h1>
-      <h1 class="pink-headline">M-F</h1>
-      <h1 class="pink-headline">6 AM</h1>
-      <button type="button" class="info-button">Edit My Text Settings</button>
-    </div>
-  </div>
-
-      <!--  the a tag below can link you to another HTML page  -->
-      <!--  if you click the button in the browser right now, you'll get an error because that is not a real file path -->
-      <!-- <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a> -->
     <script
-    src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
-  </script>
-  <script src="main.bundle.js"></script>
-</body>
+      src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
+    </script>
+    <script src="main.bundle.js"></script>
+  </body>
 </html>
