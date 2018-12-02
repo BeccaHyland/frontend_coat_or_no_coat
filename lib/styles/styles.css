@@ -71,20 +71,18 @@ body {
 
 }
 
-#pink {
+.pink-headline {
   font-size: 40px;
   color: #D62839;
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .body-containers {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 25px 30px;
 }
 
 .info-container {
@@ -96,6 +94,10 @@ body {
   background-color: white;
   width: 100%;
   text-align: center;
+}
+
+.coat-attributes {
+  padding-bottom: 10px;
 }
 
 .between {
@@ -119,10 +121,12 @@ body {
 .info-button:hover {
   background-color: #D62839;
   transition: 0.2s all ease;
+  cursor: pointer;
 }
 
 .info-button:active {
   background-color: #363E43;
+  cursor: pointer;
 }
 
 a {
@@ -134,9 +138,11 @@ a:hover {
   color: #D62839;
   text-decoration: none;
   transition: 0.2s all ease;
+  cursor: pointer;
 }
 
 a:active {
   color: #363E43;
   text-decoration: none;
+  cursor: pointer;
 }
