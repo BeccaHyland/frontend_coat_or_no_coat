@@ -18,7 +18,7 @@ Want to try out the code on your machine?
 This app is currently in development and awaiting functionality. 
   
 ## Built With
-This project was initially forked from a starter kit ([see kit here])(https://github.com/turingschool-projects/self-directed-fe-starter) and uses the following:
+This project was initially forked from a starter kit ( [see kit here] )(https://github.com/turingschool-projects/self-directed-fe-starter) and uses the following:
 
 * [JavaScript](https://www.javascript.com/)
 * [jQuery](https://jquery.com/)
