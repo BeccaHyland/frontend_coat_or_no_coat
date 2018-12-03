@@ -1,12 +1,11 @@
 # Coat or No Coat
-## Front End
-### Work in Progress
+## Front End (Work in Progress)
 
 Coat or No Coat saves users time and energy on busy mornings with a customizable daily alert that recommends outerwear based on the weather.
 
-Visit [Coat or No Coat](https://beccahyland.github.io/frontend_coat_or_no_coat/)
+Visit [Coat or No Coat](https://beccahyland.github.io/frontend_coat_or_no_coat/)! Check out the register screen and homepage to see the current static style.
 
-Looking for the Rails back end for this app?[Click here](https://github.com/BeccaHyland/api_coat_or_no_coat)
+Looking for the Rails back end for this app? [Click here](https://github.com/BeccaHyland/api_coat_or_no_coat)
 
 ## Setup
 Want to try out the code on your machine?
@@ -19,7 +18,7 @@ Want to try out the code on your machine?
 This app is currently in development and awaiting functionality. 
   
 ## Built With
-This project was initially forked from a starter kit [see kit here](https://github.com/turingschool-projects/self-directed-fe-starter) and uses the following:
+This project was initially forked from a starter kit ([see kit here])(https://github.com/turingschool-projects/self-directed-fe-starter) and uses the following:
 
 * [JavaScript](https://www.javascript.com/)
 * [jQuery](https://jquery.com/)
