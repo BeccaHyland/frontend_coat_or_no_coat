@@ -1,75 +1,25 @@
-# Self-Directed Front-End Start Kit
+# Coat or No Coat
+## Front End
+### Work in Progress
 
-## Initial Setup
+Coat or No Coat saves users time and energy on busy mornings with a customizable daily alert that recommends outerwear based on the weather.
 
-1. Clone this starter kit repository and rename the repository to anything you'd like in one command:
+Visit [Coat or No Coat](https://beccahyland.github.io/frontend_coat_or_no_coat/)
 
-  ```shell
-  git clone git@github.com:turingschool-projects/self-directed-fe-starter.git <name of your choice>
-  ```
-2. Change into the new director directory.
+Looking for the Rails back end for this app?[Click here](https://github.com/BeccaHyland/api_coat_or_no_coat)
 
-3. Remove the default remote (origin):
+## Setup
+Want to try out the code on your machine?
+1. Clone this repo
+2. Run `npm install` in your console to install dependencies.
+3. Start a local server with `npm start`
+4. Visit localhost:8080 in your browser.
 
-  ```shell
-  git remote rm origin
-  ```
-
-4. Create a new repository on GitHub.
-
-5. Add your new repository remote - **your remote URL and user name will be different in the command below**
-
-  ```shell
-  git remote add origin git@github.com:<YOUR GITHUB NAME>/<PROJECT NAME>.git
-  ```
-
-6. Install the dependencies of the starter kit:
-
-  ```shell
-  npm install
-  ```
-
-7. Add, commit, and push up to your repository:
-
-  ```shell
-  git add .
-  git commit -m "Initial commit using starter kit"
-  git push origin master
-  ```
-
-## Running the Server Locally
-
-To see your code in action locally, you need to fire up a development server. Use the command:
-
-```shell
-npm start
-```
-
-Once the server is running, visit in your browser:
-
-* `http://localhost:8080/` to run your application.
-
-
-## GitHub Pages Setup
-
-This site will be served from GitHub Pages in production.
-
-In order to see your application running on production:
-
-1. From the command line, run `npm run build`.
-
-2. Commit and push your application to GitHub.
-
-3. Visit your repository on Github
-
-4. Go to Settings
-
-5. Under the Github Pages section of Options, select 'master' as your source and click `Save`
-
-Be sure to `npm run build` and commit before each push to master. A few seconds after you push up, you should be able to see your application at <https://your-github-username.github.io/project-name>.
-
-
+## How to Use / Known Issues
+This app is currently in development and awaiting functionality. 
+  
 ## Built With
+This project was initially forked from a starter kit [see kit here](https://github.com/turingschool-projects/self-directed-fe-starter) and uses the following:
 
 * [JavaScript](https://www.javascript.com/)
 * [jQuery](https://jquery.com/)
