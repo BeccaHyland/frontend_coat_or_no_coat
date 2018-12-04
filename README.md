@@ -3,7 +3,7 @@
 
 Coat or No Coat saves users time and energy on busy mornings with a customizable daily alert that recommends outerwear based on the weather.
 
-<img width="1201" alt="initial style for checkin" src="https://user-images.githubusercontent.com/39714935/49409606-9246e780-f71e-11e8-95b4-b0eca414d2e4.png">
+<img width="1440" alt="updated style after review" src="https://user-images.githubusercontent.com/39714935/49409669-cde1b180-f71e-11e8-904d-fd7fd4e1cc9c.png">
 
 Visit [Coat or No Coat](https://beccahyland.github.io/frontend_coat_or_no_coat/)! Check out the register screen and homepage to see the current static style.
 
